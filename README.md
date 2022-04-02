@@ -21,13 +21,12 @@ isotropic Gaussian.
 
 The model is evaluated on the dataset excrated from the [MIT-BIH database](https://physionet.org/content/mitdb/1.0.0/). 
 5-fold cross validation is used to assess performances.
-AAECG is compared with other baseline models.
+AAECG is compared with other baseline models. 
 
 | Model        | PR-AUC              | ROC-AUC            | F2 - score      |
 | :---         |     :---:           |          :---:      | ---: |
 | PCA          | 0.7026 ± 0.0048     | 0.8352 ± 0.0020    | 0.5324 ± 0.0041 |
-| Beat-AE     | 0.8731 ± 0.0043            | 0.9027 ± 0.0038       | 0.6685 ± 0.0275|
-| Beat-Fast AnoGAN     | 0.8304    ± 0.0043        | 0.8865± 0.0038       | 0.5517 ± 0.0275|
-| AnoBeat     |  0.9276 ± 0.0043            | 0.9596 ± 0.0038       |0.6710 ± 0.0345|
+| AutoEncoder     | 0.8731 ± 0.0043            | 0.9027 ± 0.0038       | 0.6685 ± 0.0275|
+| [AnoBeat](https://ieeexplore.ieee.org/abstract/document/9172828)     |  0.9276 ± 0.0043            | 0.9596 ± 0.0038       |0.6710 ± 0.0345|
 | AAECG     | 0.9204 ± 0.0043            | 0.9504 ± 0.0038       | 0.6726  ± 0.0275|
 
