@@ -9,3 +9,5 @@ AAECG is a Deep Generative Model derived by an Adversarial Autoencoder(AAE) whic
 Furthermore, the model shows to understand the sex differences between heartbeats, opening the possibility to study the effects of some conditions, drugs or other particular details on the normal heartbeat wave-form, opening a path towards more patient-specific diagnosis.
 
 ## The framework
+
+![AAECG](images/AAECG.png)
