@@ -30,6 +30,10 @@ AAECG is compared with other baseline models.
 | [AnoBeat](https://ieeexplore.ieee.org/abstract/document/9172828)     |  0.9276 ± 0.0043            | 0.9596 ± 0.0038       |0.6710 ± 0.0345|
 | AAECG     | 0.9204 ± 0.0043            | 0.9504 ± 0.0038       | 0.6726  ± 0.0275|
 
+### AAECG Samples during training 
+
+![image](images/animationTrain.gif)
+
 # Repository description
 The repository is not intended for a user-friendly usage but just for research purpose.
 Building up an automated pipeline would require additional work.
