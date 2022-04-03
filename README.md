@@ -31,8 +31,10 @@ AAECG is compared with other baseline models.
 | AAECG     | 0.9204 ± 0.0043            | 0.9504 ± 0.0038       | 0.6726  ± 0.0275|
 
 ### AAECG Samples during training 
+AAECG is a generative model, hence It aims to reproduce the probability of the data.
+Here some samples obtained by randomizing the five dimensional hidden vector and choosing a random sex information.
 
-![image](images/animationTrain.gif)
+<img src="images/animationTrain.gif" width="700">
 
 # Repository description
 The repository is not intended for a user-friendly usage but just for research purpose.
