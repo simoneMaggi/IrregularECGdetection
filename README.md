@@ -31,6 +31,9 @@ AAECG is compared with other baseline models.
 | AAECG     | 0.9204 ± 0.0043            | 0.9504 ± 0.0038       | 0.6726  ± 0.0275|
 
 # Repository description
+The repository is not intended for a user-friendly usage but just for research purpose.
+Building up an automated pipeline would require additional work.
+But here a brief description for curious.
 
 - download the dataset [mit-bih](https://physionet.org/content/mitdb/1.0.0/) and run [the wrangler](Data_Wrangler.py) to clean and prepare the data
 - [here](AAECG.pdf) you can find a deep description of the work, my thesis.
