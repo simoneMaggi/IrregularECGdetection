@@ -30,3 +30,8 @@ AAECG is compared with other baseline models.
 | [AnoBeat](https://ieeexplore.ieee.org/abstract/document/9172828)     |  0.9276 ± 0.0043            | 0.9596 ± 0.0038       |0.6710 ± 0.0345|
 | AAECG     | 0.9204 ± 0.0043            | 0.9504 ± 0.0038       | 0.6726  ± 0.0275|
 
+# Repository description
+
+- download the dataset [mit-bih](https://physionet.org/content/mitdb/1.0.0/) and run [the wrangler](Data_Wrangler.py) to clean and prepare the data
+- [here](AAECG.pdf) you can find a deep description of the work, my thesis.
+- [this](TRAIN_TEST_AAECG.ipynb) it is a friendly description of the codes for train and test the model
