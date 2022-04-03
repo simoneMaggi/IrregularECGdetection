@@ -32,6 +32,6 @@ AAECG is compared with other baseline models.
 
 # Repository description
 
+- download the dataset [mit-bih](https://physionet.org/content/mitdb/1.0.0/) and run [the wrangler](Data_Wrangler.py) to clean and prepare the data
 - [here](AAECG.pdf) you can find a deep description of the work, my thesis.
 - [this](TRAIN_TEST_AAECG.ipynb) it is a friendly description of the codes for train and test the model
-- 
